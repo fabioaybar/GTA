@@ -1,0 +1,253 @@
+.marco_crear{
+    /*background-color: rgb(137, 196, 21);*/
+    background: linear-gradient(to right, rgb(250, 250, 250), rgb(255, 119, 119));        
+    margin-top: 0px;
+    margin-bottom: 200px;
+    margin-left: 400px;
+    margin-right: 400px;   
+
+  }
+label{
+    margin-left: 10px;
+    margin-bottom: 1px; 
+}
+
+  .centrar{
+    text-align: center;
+  }
+  header {
+    background-color: #6c0202;
+    padding: 5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    background-color: #6c0202;
+    padding: 5px;
+  
+  }
+  
+  .borde{
+    border-radius: 100%;
+  }
+  
+  body {
+    background-image: url('../../src/img/fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    animation: movimientoFondo 10s linear infinite;
+  
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Altura del footer */
+    background-color: #bca210;
+    text-align: center;
+  }
+  .centrar{
+    text-align: center;
+  }
+  
+  .color_1{
+    background-color: #bca210;
+  }
+  
+
+  .centrar_boton{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+  }
+  
+  .color_2{
+    background-color: #847108;
+    border-radius: 5px;
+  }
+  
+  .redondear{
+    border-radius: 5px;
+  }
+  
+  .degradado_re_hist{
+    background-image: linear-gradient(to right, #e10000, #ffc7c7);
+  }
+  
+  .negro{
+    color: black;
+  }
+
+
+
+
+  .alerta{
+    background-color: #9d3d3d;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #040404;
+    
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding-bottom: 5px;
+    text-align: left;
+    
+    
+}
+
+th {
+    
+    border: 2px solid #040404;
+    width: 100%;
+}
+
+tr{
+  border: 2px solid #000000;
+  text-align: center;
+  
+}
+
+.fgh{
+  background-color: #d03220;
+}
+td{
+  width: 50%;
+}
+
+.bordediv{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.no_mostrar {
+  display: none; /* Mostrar en versión impresa */
+}
+@media print {
+  /* Estilos para la impresión */
+  /* Puedes ajustar estos estilos según tus necesidades */
+
+  #formulario, #formulario * {
+    visibility: visible;
+  }
+  #formulario {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .print-only {
+    display: block; /* Mostrar en la versión impresa */
+  }
+  th{
+    font-weight: bold;
+    color: black;
+  }
+  table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    /* Agrega los estilos adicionales que deseas */
+  }
+  .noimprimir {
+    display: none; /*No Mostrar en versión impresa */
+  }
+  .imprimir {
+    display: block; /* Mostrar en versión impresa */
+  }
+}
+
+.button {
+  margin-right: 5%; /* Ajusta la distancia horizontal entre los botones */
+  margin-bottom: 10px; /* Ajusta la distancia vertical entre los botones */
+  width: 25%;
+}
+
+.gradient-nav {
+  background: linear-gradient(to right, #FF0000, #FFFF00, #00FF00, #0000FF);
+  background: linear-gradient(to left, #FF0000, #FFFF00, #00FF00, #0000FF);
+  background-size: 200% 100%;
+  animation: gradient-animation 4s linear infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+
+.ll{
+  background-image: url('../../src/img/navbar_index.png');
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.bordelogo{
+  border-radius: 100%;   
+}
+
+.letranav{
+  background-color: wheat;
+  background-image: url('../../src/img/resumen.png');  
+  width: 500px;
+  height: 80px;  
+}
+
+
+.divflex{
+  display:inline-flex;
+  margin-right: 0%;
+ 
+}
+.mm{
+  float: right;
+  width: 100%;
+}
+.oo{
+  display:inline-flex;
+  width: 70px;
+  height: 70px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  min-height: calc(100% - 50px); /* Resta la altura del footer */
+  /* Puedes agregar estilos adicionales al contenido de la página aquí */
+}
+
+.footer {
+  background-color: #6c0202;
+  padding: 3px;
+  text-align: center;
+  position: relative;
+  margin-top: -50px; /* Igual a la altura del footer */
+  clear: both;
+  
+}
+
+.estilo_tbk{
+  margin-bottom: 5%; 
+  text-align: center;
+}
+

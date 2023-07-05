@@ -1,0 +1,17 @@
+{
+  "name": "gta",
+  "version": "1.0.0",
+  "description": "proyecto_de_titulo_fabio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "css": "gulp css"
+  },
+  "author": "Fabio Aybar Vidal",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.62.1"
+  }
+}

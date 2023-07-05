@@ -1,0 +1,118 @@
+header {
+  background-color: #bca210;
+  padding: 5px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  nav{
+    display: flex;
+    
+    align-items: center;  
+    background-color: #bca210;
+    padding: 5px;
+  }
+  h1 {
+    font-size: 3em;
+    margin: 0;
+  }    
+  body {
+    background-image: url('../../src/img/fondo_4jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: movimientoFondo 10s linear infinite;
+  }  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Altura del footer */
+    background-color: #827312;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .centrar{
+    text-align: center;
+  }
+  .izq{
+    text-align: left;
+  }
+
+  .borde{
+    border-radius: 10px;
+  }
+
+.rojo {
+    background-color: red;    
+  }
+  /*login*/
+  .container {
+    width: 50%;
+    margin: auto;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    background-image: url('../../src/img/fondo_user_pass.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+  
+  form {
+    display: inline-block;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+
+  .bordelogo{
+    border-radius: 100%;
+  }
+  .ll{
+    background-image: url('../../src/img/navbar_login.png');
+    width: 100%;
+    height: 100%;
+  
+  }
+  .letranav{
+    background-color: wheat;
+    background-image: url('../../src/img/letra_nav_index.png');
+    width: 500px;
+    height: 80px;
+    margin-right: 20%;
+  }
+  
+  
+  .divflex{
+    display:inline-flex;
+    margin-right: 27%;   
+  }
+
+  .mm{
+    float: right;
+    width: 5%;
+  }
+  .mm{
+    
+    width: 20%;
+  } 

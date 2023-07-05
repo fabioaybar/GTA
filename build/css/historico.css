@@ -1,0 +1,213 @@
+header {
+  background-color: #6c0202;
+  padding: 5px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  background-color: #6c0202;
+  padding: 5px;
+
+}
+
+
+  body {
+    background-image: url('../../src/img/fondo.jpeg');
+    background-size: cover;
+ 
+    
+}  
+@keyframes movimientoFondo {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+.centrar{
+  text-align: center;
+}
+
+.color_1{
+  background-color: #bca210;
+}  
+
+.color_2{
+  background-color: #847108;
+  border-radius: 5px;
+}
+
+.redondear{
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+
+
+th {
+  background-color: #000000;
+  color: #fff;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+td {
+  border: rgb(0, 0, 0) 3px solid;
+  margin: 15px;
+  padding: 15px;
+  text-align: left;
+}
+
+.degfradado_formularios{
+  background-image: url('../../src/img/barrita_historial.png');
+  background-size: cover;
+ 
+  
+ }
+ .gradient-nav {
+  background: linear-gradient(to right, #FF0000, #FFFF00, #00FF00, #0000FF);
+  background: linear-gradient(to left, #FF0000, #FFFF00, #00FF00, #0000FF);
+  background-size: 200% 100%;
+  animation: gradient-animation 4s linear infinite;
+}
+ @keyframes gradient-animation {
+  0% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+
+.ll{
+  background-image: url('../../src/img/navbar_index.png');
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.bordelogo{
+  border-radius: 100%;   
+}
+
+.letranav{
+  background-color: wheat;
+  background-image: url('../../src/img/letra_nav_historico.png');  
+  width: 500px;
+  height: 80px;  
+}
+
+
+.divflex{
+  display:inline-flex;
+  margin-right: 0%;
+ 
+}
+.mm{
+  float: right;
+  width: 100%;
+}
+.oo{
+  display:inline-flex;
+  width: 70px;
+  height: 70px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  min-height: calc(100% - 50px); /* Resta la altura del footer */
+  /* Puedes agregar estilos adicionales al contenido de la página aquí */
+}
+
+.footer {
+  background-color: #6c0202;
+  padding: 3px;
+  text-align: center;
+  position: relative;
+  margin-top: -50px; /* Igual a la altura del footer */
+  clear: both;
+  margin-top: 1%;
+}
+@media print {
+  /* Estilos para la impresión */
+  table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    /* Agrega los estilos adicionales que deseas */
+    
+  }
+}
+
+
+
+@media print {
+  /* Estilos para la impresión */
+ 
+  th{
+    font-weight: bold;
+    color: black;
+  }
+  table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    /* Agrega los estilos adicionales que deseas */
+  }
+  .noimprimir {
+    display: none; /*No Mostrar en versión impresa */
+  }
+  .imprimir {
+    display: block; /* Mostrar en versión impresa */
+  }
+  
+}
+.btnImprimir{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+
+
+
+.mostrar{
+  display: none; /*para no mostrar el elemento en el html*/
+}
+@media print {
+  .print-only {
+    display: block; /* Mostrar en la versión impresa */
+  }
+  th{
+    font-weight: bold;
+    color: black;
+  }
+  table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    /* Agrega los estilos adicionales que deseas */
+  }
+  .noimprimir {
+    display: none; /*No Mostrar en versión impresa */
+  }
+  .imprimir {
+    display: block; /* Mostrar en versión impresa */
+  }
+}
